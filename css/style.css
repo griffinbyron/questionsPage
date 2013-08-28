@@ -1,7 +1,71 @@
 @charset "utf-8";
+/*************Color Library****************
+$sky: #E5F4FB;
+$yellow: #FEEEA0;
+$skin: #C8C38B;
+$polythene: #0F1D40;
+$newBlack: #000100;ßß
+*/
+/* ============================== TYPOGRAPHY =================================== */
+h1 { color: #0F1D40; font-weight: normal; }
+h2 { color: inherit; font-weight: normal; }
+h3 { color: inherit; font-weight: normal; }
 
+
+/* ============================== FORMATTING =================================== */
+body { 
+	font-family: 'LatoLight', sans-serif; 
+	padding-top: 4px; 
+	font-size:12px; 
+	color: #C8C38B; 
+	background-color: #FEEEA0;
+}
 html, body {
-    font-size: 12px;
-    color: #C8C38B;
-    background-color: #E5F4FB;
+	font-size: 12px;
+	color: #0F1D40;
+	background-color: #FEEEA0;
+}
+.ui-bar-a {
+	border: none;
+	background: #FEEEA0;
+	color: #0F1D40;
+	font-weight: normal;
+}
+.ui-header .ui-title, .ui-footer .ui-title {
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	margin: auto;
+	padding: 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 0px;	
+}
+.ui-content {
+	background-color: #FEEEA0;
+}
+.ui-header .ui-title {
+
+	/*text-indent: -9999px; */
+}
+.ui-header .ui-btn-text {
+	color: #0F1D40;
+}
+.ui-header .ui-nav-bar .ui-grid-c {
+	background-color: #E5F4FB;	
+}
+
+.ui-header .ui-navbar .ui-grid-c {
+		/*background: url("images/collegue-icon-for-homepage-186.png");*/
+		background-color: lightgreen;
+}
+
+/* .ui-block-a   .ui-btn-inner   */
+
+
+.ui-body-c, .ui-overlay-c {
+border: none;
+color: red;
+text-shadow: none;
+background: orange;
 }
