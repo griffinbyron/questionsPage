@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+html, body {
+    font-size: 12px;
+    color: #C8C38B;
+    background-color: #E5F4FB;
+}
+
+.paddit {
+	padding-top: 20px;
+}
