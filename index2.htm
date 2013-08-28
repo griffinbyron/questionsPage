@@ -7,17 +7,31 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-		<link rel="stylesheet" href="css/jquery.mobile-1.3.2.css" />
 		<script src="js/lib/jquery-1.10.2.js"></script>
 		<script src="js/lib/jquery.mobile-1.3.2.js"></script>
+		<link rel="stylesheet" href="css/jquery.mobile-1.3.2.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>		
 	</head> 
 	<body> 
 <!--================PAGE1===========================-->
 		<div data-role="page"> 
 <!--________________________________________header__-->
 			<header data-role="header">
-				<h1>site navigation</h1>
+	           <img src="images/banner.jpg" alt="Scholar Hero" width="694" height="176" />
+	            <h1>Scholar Hero</h1>
+	            <nav data-role="navbar">
+	                <ul>
+	                    <li><a href="#index" title="Home" class="ui-btn-active">Home</a></li>
+	                    <li><a href="#colleagues" title="Colleagues">Colleagues</a></li>
+	                    <li><a href="#ranking" title="Ranking">Ranking</a></li>
+	                    <li><a href="#fusion" title="Fusion">Fusion</a></li>
+	                </ul>
+	            </nav>
 			</header> 
+
+
+
+
 
 <!--______________________________________content___-->
 			<section data-role="content">
@@ -26,7 +40,10 @@
 
 <!--______________________________________footer____-->
 			<footer data-role="footer">
-				<h1>footer</h1>
+				<a href="#" title="about">about</a>
+				<a href="#" title="about">join</a>
+				<a href="#" title="about">scholarHub</a>
+				<a href="#" title="about">contact</a>											
 			</footer> 
 		</div> 
 	</body>
