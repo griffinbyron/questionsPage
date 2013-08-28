@@ -65,7 +65,11 @@ html, body {
 
 .ui-body-c, .ui-overlay-c {
 border: none;
-color: red;
 text-shadow: none;
-background: orange;
+background: #FEEEA0;
+}
+
+.centerizer {
+	text-align: center;
+	border: auto;
 }
